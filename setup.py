@@ -11,15 +11,15 @@ def read_file(filename):
         return f.read()
 
 setup(
-    name='knot-knot-injector',
+    name='knot-injector',
     version=CURRENT_VERSION,
     description='Framework agnostic dependency injections',
 
     # Get the long description from the README file
     long_description=read_file('README.rst'),
 
-    url='https://github.com/rdidyk/knot-knot-injector',
-    download_url='https://github.com/rdidyk/knot-knot-injector/archive/{}.tar.gz'.format(CURRENT_VERSION),
+    url='https://github.com/rdidyk/knot-injector',
+    download_url='https://github.com/rdidyk/knot-injector/archive/{}.tar.gz'.format(CURRENT_VERSION),
 
     author='Ruslan Didyk',
     author_email='rdidyk@tmgtop.com',

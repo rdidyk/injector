@@ -3,7 +3,7 @@ Knot Injector
 
 Framework agnostic dependency injections
 
-This library build on top of `Knot`_ package.
+This library build as a wrapper for `Knot`_ Dependencies Container.
 
 
 Installation
