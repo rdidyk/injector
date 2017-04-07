@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-CURRENT_VERSION = '0.0.2'
+CURRENT_VERSION = '0.0.3'
 
 
 def read_file(filename):
