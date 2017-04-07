@@ -1,4 +1,4 @@
-injector
+Knot Injector
 ========
 
 Framework agnostic dependency injections
@@ -9,7 +9,7 @@ This library build on top of `Knot`_ package.
 Installation
 ------------
 
-``pip install injector``
+``pip install knot-injector``
 
 Usage
 -----
@@ -21,9 +21,9 @@ Example:
     import sqlalchemy as db
     from sqlalchemy.orm import sessionmaker
 
-    from injector import InjectorContainer
+    from knot_injector import Container
 
-    registry = InjectorContainer()
+    registry = Container()
 
     settings = {
         'db': {

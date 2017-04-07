@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-CURRENT_VERSION = '0.0.1'
+CURRENT_VERSION = '0.0.2'
 
 
 def read_file(filename):
@@ -11,15 +11,15 @@ def read_file(filename):
         return f.read()
 
 setup(
-    name='injector',
+    name='knot-knot-injector',
     version=CURRENT_VERSION,
     description='Framework agnostic dependency injections',
 
     # Get the long description from the README file
     long_description=read_file('README.rst'),
 
-    url='https://github.com/rdidyk/injector',
-    download_url='https://github.com/rdidyk/injector/archive/{}.tar.gz'.format(CURRENT_VERSION),
+    url='https://github.com/rdidyk/knot-knot-injector',
+    download_url='https://github.com/rdidyk/knot-knot-injector/archive/{}.tar.gz'.format(CURRENT_VERSION),
 
     author='Ruslan Didyk',
     author_email='rdidyk@tmgtop.com',
@@ -36,7 +36,7 @@ setup(
     ],
 
     keywords='dependencies injection',
-    packages=['injector'],
+    packages=['knot_injector'],
     include_package_data=True,
     zip_safe=False,
 
@@ -45,7 +45,7 @@ setup(
     ],
 
     package_data={
-        'injector': [
+        'knot_injector': [
             'README.rst',
             'setup.cfg',
             'LICENSE',

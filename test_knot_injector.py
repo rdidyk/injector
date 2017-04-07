@@ -1,5 +1,5 @@
 import pytest
-import injector
+import knot_injector
 
 
 class TestInjector(object):
@@ -12,7 +12,7 @@ class TestInjector(object):
 
     @pytest.fixture()
     def container(self):
-        return injector.InjectorContainer()
+        return knot_injector.Container()
 
     def test_adding_service(self, container, provider):
         container.service()(provider)
